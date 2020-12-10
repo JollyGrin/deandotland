@@ -1,0 +1,21 @@
+{
+  "name": "deanland",
+  "version": "1.0.0",
+  "description": "place to flex my blender renders",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o docs",
+    "deploy": "npm run build && git add -A && git commit -m 'update' && git push",
+    "css:build": "node-sass --omit-source-map-url assets/sass/styles.scss public/css/styles.css",
+    "css:watch": "npm run css:build -- --watch"
+  },
+  "author": "jollygrin",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^10.0.3",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
