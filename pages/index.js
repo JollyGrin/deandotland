@@ -13,6 +13,7 @@ export default function Index({ youtube, preview }) {
         <div className="icons">
           <a href="https://www.instagram.com/deandotland/"><i className="fab fa-instagram" /></a>
           <a href="https://www.youtube.com/playlist?list=PL1i-TpHn0Xgw8iZe2wqS4tuC9BKem0buD"><i className="fab fa-youtube" /></a>
+          <a href="https://app.rarible.com/deandotland/onsale"><i className="fab fa-ethereum"/></a>
           <a href="https://dean.lol"><span>.lol</span></a>
         </div>
         </section>
@@ -22,8 +23,8 @@ export default function Index({ youtube, preview }) {
           ))}
         </div>
         <section>
-        <p> Created by Dean Masley, </p>
-        <p> @deandotland (on instagram) creates 3d animations. </p>
+        <p> Created by <a href="https://dean.lol">Dean Masley</a>, </p>
+        <p> <a href="https://www.instagram.com/deandotland/">@deandotland </a> (on instagram) creates 3d animations. </p>
         <p> Just goofing with blender. </p>
       </section>
     </Layout>
