@@ -9,7 +9,7 @@ a {
   color: inherit; }
 
 section {
-  margin: 0 auto;
+  margin: auto auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,7 +42,10 @@ h1 {
   font-family: "Darker Grotesque", sans-serif !important;
   padding: 0 10px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: -webkit-center; }
   #gallery .container .video {
     display: flex;
     background-color: #c0422a;
