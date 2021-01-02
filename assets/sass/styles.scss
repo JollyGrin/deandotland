@@ -1,6 +1,16 @@
+$font-primary: 'Darker Grotesque', sans-serif;
+$font-header: 'Abril Fatface', cursive;
+$color-dark: #363636;
+$color-light: #d1c8a6;
+$color-brown: #76564a;
+$color-red: #c0422a;
+$color-playbutton: $color-light;
+
 body {
   background-color: black;
   color: white;
+  font-family: $font-primary;
+  font-size: 1.5rem;
 }
 
 a {
@@ -14,18 +24,20 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  max-width: 500px;
+  max-width: 900px;
+  min-height: 35vh;
 }
 
 h1 {
   font-size: 5rem;
   padding-bottom: 0.5em;
+  font-family: $font-header;
 }
 
 .icons {
   font-size: 3rem;
   margin-bottom: 2em;
+  font-family: $font-header;
 
   & > * {
     margin: 0.5em;
@@ -39,3 +51,45 @@ h1 {
     transform: translate(-5px, -5px);
   }
 }
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 25px;
+  font-family: $font-primary !important;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+
+  & .container .video {
+    display: flex;
+    background-color: $color-red;
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    min-height: 250px;
+
+    justify-content: center;
+    align-items: center;
+
+    transition: box-shadow 0.25s ease-in-out;
+
+    & i {
+      cursor: pointer;
+      color: $color-playbutton;
+      font-size: 2em;
+      opacity: 0.7;
+
+      transition-property: color, font-size, opacity;
+      transition-duration: 0.2s;
+      transition-timing-function: ease-in-out;
+    }
+
+    & i:hover {
+      opacity: 0.9;
+      font-size: 3em;
+      color: $color-red;
+    }
+  }
+}
+
