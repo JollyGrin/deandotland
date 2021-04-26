@@ -15,7 +15,7 @@ export default function Index({ result, preview }) {
         <br />
         <div className="icons">
           <a href="https://www.instagram.com/deandotland/"><i className="fab fa-instagram" /></a>
-          <a href="https://www.youtube.com/playlist?list=PL1i-TpHn0Xgw8iZe2wqS4tuC9BKem0buD"><i className="fab fa-youtube" /></a>
+          {/* <a href="https://www.youtube.com/playlist?list=PL1i-TpHn0Xgw8iZe2wqS4tuC9BKem0buD"><i className="fab fa-youtube" /></a> */}
           <a href="https://app.rarible.com/deandotland/onsale"><i className="fab fa-ethereum" /></a>
           <a href="https://dean.lol"><span>.lol</span></a>
         </div>
