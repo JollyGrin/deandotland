@@ -20,11 +20,11 @@ export default function Index({ result, preview }) {
           <a href="https://dean.lol"><span>.lol</span></a>
         </div>
       </section>
-      <div id="thegrid">
+      {/* <div id="thegrid">
         {result.map((post, i) => (
           <InstaComponent instaobject={post} key={i} />
         ))}
-      </div>
+      </div> */}
       <section>
         <p> Created by <a href="https://dean.lol">Dean Masley</a>, </p>
         <p> <a href="https://www.instagram.com/deandotland/">@deandotland </a> (on instagram) creates 3d animations. </p>
