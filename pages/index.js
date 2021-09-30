@@ -9,14 +9,17 @@ import { getPosts } from '../assets/js/insta';
 export default function Index({ result, preview }) {
   return (
     <Layout>
+      <div className="page">
       <section>
         <h1>dean.land</h1>
         <p>established Nov 24, 2020</p>
-        <br />
-        <div className="icons">
+      </section>
+      <section>
+      <div className="icons">
           <a href="https://www.instagram.com/deandotland/"><i className="fab fa-instagram" /></a>
-          {/* <a href="https://www.youtube.com/playlist?list=PL1i-TpHn0Xgw8iZe2wqS4tuC9BKem0buD"><i className="fab fa-youtube" /></a> */}
-          <a href="https://app.rarible.com/deandotland/onsale"><i className="fab fa-ethereum" /></a>
+          <a href="https://twitter.com/deandotland"><i className="fab fa-twitter" /></a>
+          <a href="https://opensea.io/deandotland"><i className="fab fa-ethereum" /></a>
+          <a href="https://play.decentraland.org/?position=21,-141"><i className="fas fa-map-marker-alt" /></a>
           <a href="https://dean.lol"><span>.lol</span></a>
         </div>
       </section>
@@ -25,11 +28,12 @@ export default function Index({ result, preview }) {
           <InstaComponent instaobject={post} key={i} />
         ))}
       </div> */}
-      <section>
+      <section className="footer">
         <p> Created by <a href="https://dean.lol">Dean Masley</a>, </p>
         <p> <a href="https://www.instagram.com/deandotland/">@deandotland </a> (on instagram) creates 3d animations. </p>
         <p> Just goofing with blender. </p>
       </section>
+      </div>
     </Layout>
   );
 }

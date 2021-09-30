@@ -18,6 +18,13 @@ a {
     color: inherit;
 }
 
+.page {
+  min-height: 99vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 section {
   margin: auto auto;
   display: flex;
@@ -25,7 +32,11 @@ section {
   justify-content: center;
   align-items: center;
   max-width: 900px;
-  min-height: 35vh;
+  // min-height: 35vh;
+}
+
+.footer {
+  justify-content: end !important;
 }
 
 h1 {
@@ -35,6 +46,7 @@ h1 {
 }
 
 .icons {
+  display: flex;
   font-size: 3rem;
   margin-bottom: 2em;
   font-family: $font-header;

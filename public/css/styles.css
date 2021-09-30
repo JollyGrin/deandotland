@@ -8,14 +8,22 @@ a {
   text-decoration: none;
   color: inherit; }
 
+.page {
+  min-height: 99vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
 section {
   margin: auto auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 900px;
-  min-height: 35vh; }
+  max-width: 900px; }
+
+.footer {
+  justify-content: end !important; }
 
 h1 {
   font-size: 5rem;
@@ -23,6 +31,7 @@ h1 {
   font-family: "Abril Fatface", cursive; }
 
 .icons {
+  display: flex;
   font-size: 3rem;
   margin-bottom: 2em;
   font-family: "Abril Fatface", cursive; }
