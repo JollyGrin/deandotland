@@ -22,7 +22,6 @@ export default function Index({ result, preview }) {
       </section>
      
       <section className="footer">
-        <p> Created by <a href="https://dean.lol">Dean Masley</a>, </p>
         <p> <a href="https://www.instagram.com/deandotland/">@deandotland </a> (on instagram) creates 3d animations. </p>
         <p> Just goofing with blender. </p>
       </section>

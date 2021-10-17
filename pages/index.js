@@ -20,7 +20,7 @@ export default function Index({ result, preview }) {
           <a href="https://twitter.com/deandotland"><i className="fab fa-twitter" /></a>
           <a href="https://opensea.io/deandotland"><i className="fab fa-ethereum" /></a>
           <a href="https://play.decentraland.org/?position=21,-141"><i className="fas fa-map-marker-alt" /></a>
-          <a href="https://dean.lol"><span>.lol</span></a>
+          {/* <a href="https://dean.lol"><span>.lol</span></a> */}
         </div>
       </section>
       {/* <div id="thegrid">
@@ -29,7 +29,6 @@ export default function Index({ result, preview }) {
         ))}
       </div> */}
       <section className="footer">
-        <p> Created by <a href="https://dean.lol">Dean Masley</a>, </p>
         <p> <a href="https://www.instagram.com/deandotland/">@deandotland </a> (on instagram) creates 3d animations. </p>
         <p> Just goofing with blender. </p>
       </section>
